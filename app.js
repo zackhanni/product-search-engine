@@ -1,7 +1,7 @@
 const search = () => {
     const searchBox = document.getElementById("search-item").value.toUpperCase();
     const storeItems = document.getElementById("product-list");
-    const product = document.querySelectorAll('.product');
+    const product = document.querySelectorAll(".product");
     const productName = storeItems.getElementsByTagName("h2");
 
     for(var i=0; i<productName.length; i++){
